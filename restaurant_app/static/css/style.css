@@ -1,0 +1,517 @@
+body{
+    margin: 0;
+    background-image: url(../img/1643190304_1-phonoteka-org-p-doski-svetlie-fon-1.jpg);
+    background-size: cover;
+}
+/* .container {
+    
+} */
+.header {
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.header-line{
+    /* padding-top: 30px; */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+}
+.nav-item{
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+    margin-right: 25px;
+    transition: color 0.3s linear;
+}
+
+.nav-item:hover{
+    color: green;
+}
+
+.phone{
+    height: 50px;
+}
+.num{
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+    transition: color 0.3s linear;
+    height: 50px;
+}
+.num:hover{
+    color: green;
+}
+.phone-text{
+    font-size: 15px;
+    font-weight: 700;
+}
+.phone-holder{
+    display:flex ;
+    align-items: center;
+}
+.button{
+    color: black;
+    background-color: rgba(28,28,28,0);
+    text-decoration: none;
+    padding: 10px 15px;
+    font-weight: 700;
+    font-size: 20px;
+    border: 2px solid;
+    transition: border 0.2s linear;
+    border-radius: 20px;
+}
+.button:hover{
+    border: 2px solid green;
+}
+.header-down{
+    position: relative;
+}
+.header-title{
+    color: green;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Tinos', serif;
+    font-size: 50px;
+    font-weight: 400;
+    text-align: center;
+    margin-top: -430px;  
+}
+.header-suptitle{
+    color: green;
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+}
+.header-suptitle:after {
+    position: absolute;
+    height: 2px;
+    width: 61px;
+    background-color: green;
+
+}
+.header-suptitle:before {
+    position: absolute;
+    height: 2px;
+    width: 61px;
+    background-color: green;
+}
+.header-button{
+    background-color: rgba(28,28,28,0);;
+    color: black;
+    text-decoration: none;
+    padding: 10px 15px;
+    font-weight: 700;
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+    border: 2px solid;
+    transition: border 0.2s linear;
+    border-radius: 20px;
+}
+.header-button:hover{
+    border: 2px solid green;
+}
+.card{
+    width: 300px;
+    box-shadow: 0px 0px 10px 10px green;
+    margin-right: 31px;
+    margin-top: 150px;
+    padding: 0px 10px;
+    border-radius: 15px 15px 15px 15px;
+}
+.card-img{
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+
+}
+.card-title{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    /* font-family: 'Tinos', serif; */
+    font-size: 25px;
+    font-weight: 400;
+    text-align: center;
+}
+.card-desc{
+    align-content: center;
+    /* font-family: 'Tinos', serif; */
+    font-size: 25px;
+    font-weight: 400;
+    text-align: center;
+}
+.cards-holder{
+    display: flex;
+    justify-content: center;
+}
+.card-title span{
+    color: green;
+}
+.dishes-title{
+    font-family: 'Tinos', serif;
+    font-size: 50px;
+    font-weight: 400;
+    text-align: center;
+    padding-top: 100px;
+    margin-bottom: 135px;
+}
+.dishes-title span{
+    color: green;
+}
+.burgers{
+    display: flex;
+    justify-content: center;
+}
+.burger-item{
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.burgers-image{
+    margin-right: 20px;
+}
+.burger-text{
+    font-family: 'Tinos', serif;
+    font-size: 25px;
+    margin-left: 20px;
+}
+.burger-text span{
+    color: green;
+}
+
+/* ///////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+.menu{
+    /* background-image: url(../img/1616566440_52-p-fon-restoran-56.jpg); */
+    background-color: rgba(28,28,28,0);;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* padding-bottom: 100px; */
+    margin-top: -500px;
+}
+.menu-title{
+    font-family: 'Tinos', serif;
+    font-size: 55px;
+    padding: 0px 0 100px 0;
+    color: black;
+    text-align: center;
+}
+.menu-item{
+    background-color: rgba(28,28,28,0);;
+    text-align: center;
+    width: 33%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border: 3px solid green;
+    border-radius: 20px;
+    margin: 0 0 25px 0;
+    max-height: 500px;
+    max-width: 400px;
+}
+.menu-text{
+    font-family: 'Tinos', serif;
+    font-size: 40px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    color: black;
+}
+.menu-subtext{
+    font-size: 25px;
+    color: black;
+    font-family: 'Tinos', serif;
+}
+.menu-btn{
+    background-color: rgba(28,28,28,0);;
+    text-decoration: none;
+    padding: 10px 40px;
+    color: black;
+    font-size: 20px;
+    border: 2px solid;
+    transition: 0.5s;
+    border-radius: 20px;
+}
+.menu-btn:hover{
+    border-color: green;
+}
+.menu-button{
+    margin-top: 20px;
+    font-family: 'Open Sans', sans-serif;
+}
+.menu-img{
+    width: 360px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+    border: 2px solid ;
+}
+.price-image{
+    position: absolute;
+    top: 80%;
+    left: 75%;
+    width: 100px;
+    height: 100px;
+    background-color: rgba(28,28,28,0);;
+    border: 2px dashed;
+    border-radius: 90px;
+}
+.menu-image{
+    position: relative;
+}
+
+.price-1000{
+    position: absolute;
+    /* bottom:17px; */
+    top: 92%;
+    left: 77%;
+    color: black;
+    font-size: 30px;
+}
+.menu-items{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+/* /////////////////////////////////////////////////////////////////////////////////////////////////////// */
+.cook{
+    padding-bottom: 100px;
+}
+.cook-title{
+    font-family: 'Tinos', serif;
+    font-size: 55px;
+    text-align: center;
+    padding-top: 100px;
+    margin-bottom: 60px;
+}
+.cook-title span{
+    color: green;
+}
+.cook-content{
+    display: flex;
+    justify-content: space-around;
+}
+.footer{
+    background-color: rgba(28,28,28,0);;
+    color: green;
+    padding-top: 70px;
+    padding-bottom: 40px;
+    text-align: center;
+    font-family: 'Tinos', serif;
+    font-size: 20px;
+}
+
+/* ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+.box{
+    width: 300px;
+    padding: 40px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.box input[type = "text"],.box input[type = "date"],.box input[type = "time"],.box input[type = "number"],.box input[type = "date"]{
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid black;
+    padding: 14px 10px;
+    width: 200px;
+    outline: none;
+    color: green;
+    border-radius: 25px;
+    transition: 0.25s;
+}
+.box h1{
+    color: black;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-family: 'Tinos', serif;
+}
+.box input[type = "text"]:focus,.box input[type = "date"]:focus,.box input[type = "time"]:focus,.box input[type = "number"]:focus,.box input[type = "date"]:focus{
+    width: 280px;
+    border-color: green;
+}
+.box input[type = "submit"]{
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid green;
+    padding: 14px 40px;
+    outline: none;
+    color: black;
+    border-radius: 25px;
+    transition: 0.25s;
+    cursor: pointer;
+}
+.box input[type = "submit"]:hover{
+    background: green;
+}
+
+/* /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+body {
+	min-height: 100vh;
+	margin: 0;
+	padding: 0;
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-attachment: fixed;
+	font-family: sans-serif;
+}
+
+.form {
+	background-color: rgba(28,28,28,0);;
+	border: 2px solid green;
+	box-shadow: 0 0 0 10px green;
+	height: 350px;
+	width: 420px;
+	text-align: center;
+}
+
+.mainText {
+	font-size: 27px;
+	margin: 40px 0 5px 0;
+	color: #030303;
+}
+
+.secondText {
+	font-size: 18px;
+	margin: 0;
+	color: #030303;
+	margin-bottom: 25px;
+}
+
+.formInput {
+	background: green;
+	height: 50px;
+	border-radius: 50px;
+	display: flex;
+	justify-content: center;
+	width: 300px;
+	margin: 15px auto 0 auto;
+}
+
+.formInput i {
+	font-size: 17px;
+	position: relative;
+	top: 50%;
+	transform: translate(0, -50%);
+	padding-right: 10px;
+}
+
+.formInput input {
+	flex: .7;
+	background: green;
+	border: none;
+	outline: none;
+	font-size: 15px;
+}
+
+.send {
+	border: none;
+	color: #fff;
+	background: green;
+	width: 180px;
+	height: 40px;
+	border-radius: 40px;
+	font-weight: bold;
+	font-size: 18px;
+	margin-top: 30px;
+	box-shadow: 0 0 20px 0 green;
+	transition: .4s;
+	outline: none;
+}
+
+.send:hover {
+	box-shadow: 0 0 25px 5px green;
+}
+
+/* ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+.pagination {
+    text-align: center;
+    padding-top: 50px;
+    font-size: 20px;
+}
+.pagination a{
+    text-decoration: none;
+    color: green;
+    font-weight: bolder;
+    font-size: 30px;
+}
+
+.current{
+    color: green;
+    font-weight: bolder;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.table-btn{
+    background-color: rgba(28,28,28,0);;
+    color: black;
+    text-decoration: none;
+    padding: 10px 15px;
+    font-weight: 00;
+    font-size: 10px;
+    font-family: 'Open Sans', sans-serif;
+    border: 2px solid;
+    transition: border 0.2s linear;
+    border-radius: 20px;
+}
+
+
+
+
+/* .cook_img {
+    display: inline-block;
+    position: relative;
+    text-align: center;
+    overflow: hidden;
+    border-radius: 5px;
+}
+.cook_img .info {
+    position: absolute;
+    bottom: 0;
+}
+.cook_img .info span {
+    display: block;
+    position: relative;
+    top: 130px;
+    color: #FFFFFF;
+    background: #000000;
+    transition-delay: 0;
+    transition-duration: 0.3s;
+}
+.cook_img .info .info_title {
+    font-size: 18px;
+    font-weight: bold;
+    padding: 5px;
+    border-radius: 5px 5px 0 0;
+    opacity: 0.8;
+}
+.cook_img .info .info_text {
+    font-size: 12px;
+    padding: 10px;
+    opacity: 0.6;
+}
+.cook_img:hover .info span, .cool_img:focus .info span {
+    top: 0;
+}
+.cook_img:hover .info .info_title {
+    transition-delay: 0.15s;
+}
+.cook_img:hover .info .info_text {
+    transition-delay: 0.25s;
+} */

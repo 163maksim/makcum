@@ -1,0 +1,23 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block title %}
+About us
+{% endblock %}
+{% block content %}
+<div class="cook">
+    <div class="container">
+        <div class="cook-title">
+            Наши <span>Повара</span>
+        </div>
+        {% for cooker in cookers %}
+        <a class="cook-img" href="#">
+            <img style="width: 400px;" src="{{ cooker.image.url }}">
+            <div class="cook-info">
+                <span class="info_title">{{ cooker.first_name }}</span>
+                <span class="info_text">{{ cooker.description }}</span>
+            </div>
+        </a>
+        {% endfor %}
+    </div>
+</div>
+{% endblock %}

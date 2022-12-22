@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block title %}
+Table
+{% endblock %}
+{% block content %}
+<form class="box" action="" method="post">
+    <h1>Бронирование</h1>
+    <input type="text" name="" placeholder="Имя">
+    <input type="text" name="" placeholder="Фамилия">
+    <input type="date" name="" placeholder="Дата">
+    <input type="time" name="" placeholder="Время">
+    <input type="number" name="" placeholder="Номер столика">
+    <button class="table-btn">Забронировать</button>
+</form>
+{% endblock %}

@@ -1,0 +1,33 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block title %}
+Feedback
+{% endblock %}
+{% block content %}
+<form class="form" action="{% url 'create_feedback' %}" method="POST">
+    {% csrf_token %}
+    <h2 class="mainText">Оставьте заявку</h2>
+    <p class="secondText">И мы свяжемся с вами!</p>
+    <div class="formInput">
+        <span><i class="fas fa-user"></i></span>
+        <input type="text" class="input" placeholder="Введите ваше имя" name="first_name">
+    </div>
+    <div class="formInput">
+        <span><i class="fas fa-user"></i></span>
+        <input type="text" class="input" placeholder="Введите вашу фамилию" name="last_name">
+    </div>
+    <div class="formInput">
+        <span><i class="fas fa-user"></i></span>
+        <input type="mail" class="input" placeholder="Введите ваш email" name="email">
+    </div>
+    <div class="formInput">
+        <span><i class="fas fa-user"></i></span>
+        <input type="text" class="input" placeholder="Введите ваше сообщение" name="message">
+    </div>
+    <div class="formInput">
+        <span><i class="fas fa-phone-alt"></i></span>
+        <input type="number" class="input" placeholder="Введите ваш телефон" name="phone">
+    </div>
+    <button class="send">Отправить</button>
+</div>
+{% endblock %}
